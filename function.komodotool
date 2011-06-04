@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "function", 
+  "value": [
+    "################################################################################\n\nsub [[%tabstop:name]] { # [[%tabstop:comment]]", 
+    "\n\tmy ($options) = @_;\n\t", 
+    "\t[[%tabstop:body!@#_currentPos!@#_anchor]] ", 
+    "\t\n\treturn;\n}\n\n"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "false"
+}

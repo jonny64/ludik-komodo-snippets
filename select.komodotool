@@ -1,0 +1,10 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "select", 
+  "value": [
+    "!@#_anchor################################################################################\n\nsub select_[[%b]] {\n\n\tsql (\n\t\n\t\tadd_vocabularies ({},\n\t\t\t[[%tabstop:users]] => {},\n\t\t),\n\t\t\n\t\t[[%b]] => [\n\t\n\t\t\t'id_user',\n\t\t\t\n\t\t\t['label LIKE %%?%%' => $_REQUEST {q}],\n\t\t\t\n\t\t\t[ LIMIT => 'start, 50'],\n\t\t\n\t\t],\n\t\t\t\n\t\t'[[%tabstop:users]]',\n\t\t\n\t);\n\t\n}\n\n!@#_currentPos"
+  ], 
+  "set_selection": "true", 
+  "type": "snippet", 
+  "indent_relative": "false"
+}
